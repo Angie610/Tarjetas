@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+body{
+    box-sizing: border-box;
+    background-image: url(wallper.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: "Merienda", sans-serif;
+    font-size: 10px;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    background: rgb(241,205,182);
+    background: linear-gradient(180deg, rgba(241,205,182,1) 4%, rgba(239,181,144,1) 48%);
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px 10px;
+    border-radius: 8px;
+    transition: .5s ease-out;
+    border: 1px solid #000;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 10px;
+}
+
+.tarea1{
+    font-size: 40px;
+    margin: 0;
+    border-bottom: 1px solid #000; 
+}
+
+.tarea1 > h1{
+    font-size: 2.5rem;
+    margin: 0;
+    text-align: center;
+}
+
+.cardcontent{
+    font-size: 16px;
+    padding: 8px;
+    padding-bottom: 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.fotopf{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 130px;
+    height: 130px; 
+    border-radius: 20%;
+    margin-top: 10px;
+    padding: 0; 
+    position: relative; 
+    z-index: 1; 
+}
+    
+
+/* TAREA */
+
+section{
+    display: flex;
+    min-height: 50vh;
+    margin-bottom: 200px;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.tarea{
+    margin: 300px;
+    color: #000;
+    text-align: center;
+    padding: 200px;
+}
+
+.tarea_2{
+    width: 350px;
+    height: 350px;
+    border: 1px solid #000;
+    margin-right: auto;
+    margin-left:0;
+    margin-top: 10%;
+    padding: 20px 10px;
+    background: rgb(241,205,182);
+    background: linear-gradient(180deg, rgba(241,205,182,1) 4%, rgba(239,181,144,1) 48%);
+    background-repeat: no-repeat;
+    justify-content: center;
+    border-radius: 8px;
+    transition: .5s ease-out;
+    transform: translateX(-13px);
+}
+
+.tarea_2:hover{
+    box-shadow: 0px 0px 10px;
+}
+
+.tarea_3{
+    width: 390px;
+    height: 390px;
+    border: 1px solid #000;
+    margin: auto;
+    margin-top: 10%;
+    margin-right: auto;
+    transform: translateX(-13px);
+    background: rgb(241,205,182);
+    background: linear-gradient(180deg, rgba(241,205,182,1) 4%, rgba(239,181,144,1) 48%);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    transition: .5s ease-out;
+}
+
+
+.tarea_2 > h2{
+    font-size: 2.5rem;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #000; 
+}
+
+
+.tarea_3:hover{
+    box-shadow: 0px 0px 10px;
+}
+
+.tarea_2 ul{
+    font-size: 16px;
+    padding: 8px;
+    text-align: left;
+    justify-content: center;
+    list-style: inside;
+    line-height: 25px; 
+}
+
+.tarea_2 > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    background: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.tarea_2 > a:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.tarea_3 > h3{
+    font-size: 2.5rem;
+    margin: 20px 0 0; 
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+.tarea_3 > ul{
+    font-size: 16px;
+    padding: 10px;
+    text-align: left;
+    list-style: inside;
+    align-items: center;
+    line-height: 30px; 
+}
